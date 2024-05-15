@@ -28,33 +28,16 @@
     font-size: 40px;
 }
 
-.dados {
-    margin-top: 20px;
-    font-size: 20px;
-
+form {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    padding: 30px;
+   
 }
 
-.inputCreate {
-    width: 500px;
-    height: 27px;
-    font-size: 18px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    background-color: transparent;
-}
-
-label {
-    background-color: blue;
-}
-
-#cadastro {
-    position: absolute;
-    width: 100px;
-    height: 30px;
-    bottom: 45px;
-    right: 100px;
-    font-size: 18px;
-    border-radius: 20px;
-    cursor: pointer;
+input { 
+    align-items: center;
+    flex-direction: row;
+    display: flex;
 }

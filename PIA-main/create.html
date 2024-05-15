@@ -10,15 +10,33 @@
     <div class="geral">
         <div class="container"> 
             <h1 id="titulo">Crie sua conta:</h1>
-            <div>
-                <div class="dados">Nome completo: <br><input type="text"  class="inputCreate"></div>
-                <div class="dados">Nome de usuário: <br><input type="text" class="inputCreate"></div>
-                <div class="dados">CPF:  <br><input type="text" class="inputCreate"></div>
-                <div class="dados">Email:  <br><input type="text" class="inputCreate"></div>
-                <div class="dados">Endereço:  <br><input type="text" class="inputCreate"></div>
-                <div class="dados">Senha:  <br><input type="text" class="inputCreate"></div>
+            <form>
+                <input name="nome" type="text" autocomplete="off" required>
+                <label for="nome">
+                    <span>Nome Completo</span>
+                </label>
+                <input name="nsuario" type="text" autocomplete="off" required>
+                <label for="nsuario">
+                    <span>Nome de usuario</span>
+                </label>
+                <input name="CPF" type="text" autocomplete="off" required>
+                <label for="CPF">
+                    <span>CPF</span>
+                </label>
+                <input name="Endereco" type="text" autocomplete="off">
+                <label for="Endereco">
+                    <span>Endereço</span>
+                </label>
+                <input name="Email" type="text" autocomplete="off" required>
+                <label for="Email">
+                    <span>Email</span>
+                </label>
+                <input name="senha" type="text" autocomplete="off" required>
+                <label for="senha">
+                    <span>Senha</span>
+                </label>
                 <button type="submit" id="cadastro">Cadastrar</button>
-            </div>
+            </form>  
         </div>
     </div>
 
