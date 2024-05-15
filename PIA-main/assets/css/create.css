@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+}
+
+.geral {
+    background-color: rgb(116, 116, 116);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(202, 202, 202);
+    width: 700px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#titulo {
+    position: absolute;
+    top: 60px;
+    font-size: 40px;
+}
+
+.dados {
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.inputCreate {
+    width: 500px;
+    height: 27px;
+    font-size: 18px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+}
+
+label {
+    background-color: blue;
+}
+
+#cadastro {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    bottom: 45px;
+    right: 100px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
